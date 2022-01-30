@@ -1,0 +1,48 @@
+H2 {
+    border-width: 3px;
+    font-style: italic;
+}
+TABLE {
+    text-align: left;
+    width:100%;
+    vertical-align: top;
+    table-layout: fixed;
+    border-top: thin solid #dbe7fb;
+    border-bottom: thin solid #dbe7fb;
+    border-collapse: collapse;
+    margin-bottom: 10px;
+}
+TD,TH {
+    vertical-align: top;
+    border-left: thin solid #dbe7fb;
+    border-right: thin solid #dbe7fb;
+    empty-cells: show;
+}
+TH {
+    text-align: left;
+    background-color: #dbe7fb;
+    border-bottom: thin solid #dbe7fb;
+}
+TH.main {
+    width: 50%;
+}
+
+BODY {
+  /* Bodge to center in old IE */
+	margin:50px 0px; padding:0px;
+	text-align:center;
+
+  background-color:#222;
+}
+
+#content {
+  max-width:800px;
+  min-width:500px;
+	margin:0px auto;
+	text-align:left;
+  background-color:#fff;
+  border-style:solid;
+  border-width:80px;
+  border-color:#fff;
+}
+
